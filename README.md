@@ -1,21 +1,21 @@
 # ESP-01s-Automation
-Firmware for ESP 01 S relay development board to control relays using MQTT. The code connects to a Wi-Fi network, subscribes to an MQTT topic, and toggles the relays based on received messages.
+Firmware for [ESP 01 S devboard](https://github.com/aman983/ESP-01S_Relay_Module) to control relays using MQTT. The code connects to a Wi-Fi network, subscribes to an MQTT topic, and toggles the relays based on received messages.
 
 ## Requirements
 
 - Arduino IDE
-- ESP 01 S relay development board
+- [ESP 01 S devboard](https://github.com/aman983/ESP-01S_Relay_Module)
 - MQTT broker (e.g., mqtt.eclipseprojects.io)
 
 ## Getting Started
 
-1. Connect your  ESP 01 S relay development board to your computer.
+1. Connect your [ESP 01 S devboard](https://github.com/aman983/ESP-01S_Relay_Module) to your computer.
 2. Open the Arduino IDE and install the required libraries:
    - Arduino Core for ESP8266 (should be installed by default for ESP8266 boards)
    - ESP8266WiFi library
    - PubSubClient library
 3. Replace the placeholders in the code with your Wi-Fi credentials (`ssid` and `password`) and MQTT broker address (`mqtt_broker`) if needed.
-4. Upload the sketch to your ESP8266 board.
+4. Upload the sketch to your [ESP 01 S devboard](https://github.com/aman983/ESP-01S_Relay_Module).
 5. Open the Serial Monitor to see the connection status and IP address.
 
 ## How It Works
